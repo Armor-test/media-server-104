@@ -1,0 +1,39 @@
+# CODEOWNERS file for media-server-104
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-mobile @Armor-test/squad-ml @Armor-test/dept-automation
+
+# Directory ownership
+/scripts/ @Armor-test/dept-ui @Armor-test/dept-reliability
+/deploy/ @Armor-test/team-core @Armor-test/squad-cache @Armor-test/dept-logging
+/data/ @Armor-test/squad-payments @Armor-test/unit-governance
+/hooks/ @Armor-test/grp-reporting @Armor-test/squad-qa
+/config/ @Armor-test/squad-research @Armor-test/dept-release @Armor-test/dept-ui
+/src/ @Armor-test/squad-cache @Armor-test/unit-test
+/utils/ @Armor-test/team-governance @Armor-test/squad-reporting
+/middleware/ @Armor-test/dept-billing @Armor-test/squad-apps
+/common/ @Armor-test/squad-apps @Armor-test/squad-mobile @Armor-test/unit-design
+/components/ @Armor-test/squad-apps @Armor-test/unit-design
+/build/ @Armor-test/dept-release @Armor-test/team-core
+/core/ @Armor-test/squad-research @Armor-test/dept-release @Armor-test/grp-payments
+/pkg/ @Armor-test/unit-design @Armor-test/squad-qa
+
+# File type ownership
+*.gradle @Armor-test/dept-api @Armor-test/squad-performance @Armor-test/squad-api
+*.graphql @Armor-test/squad-api @Armor-test/squad-cache @Armor-test/unit-devops
+*.php @Armor-test/grp-search @Armor-test/squad-cloud @Armor-test/team-logging
+*.kt @Armor-test/dept-identity @Armor-test/grp-integration @Armor-test/dept-test
+*.js @Armor-test/team-notifications @Armor-test/team-research
+*.py @Armor-test/team-research @Armor-test/unit-governance @Armor-test/squad-tooling
+*.tsx @Armor-test/squad-research @Armor-test/squad-frontend
+*.sh @Armor-test/dept-identity @Armor-test/squad-database
+*.css @Armor-test/team-security @Armor-test/dept-test @Armor-test/team-logging
+*.toml @Armor-test/squad-product @Armor-test/squad-cloud
+*.sql @Armor-test/squad-cloud @Armor-test/dept-ui @Armor-test/unit-test
+*.go @Armor-test/squad-qa @Armor-test/dept-api
+*.ini @Armor-test/grp-storage @Armor-test/dept-logging @Armor-test/team-research
+*.cs @Armor-test/squad-search @Armor-test/grp-api
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
